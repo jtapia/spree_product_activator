@@ -1,7 +1,21 @@
-SpreeProductActivator
+Spree Product Activator
 =====================
 
-Introduction goes here.
+Simple way to make active/inactive a product
+
+You're going to be able to see a checkbox to make a product active/inactive as you need, this in product admin site
+
+Now you can use it like here:
+
+```ruby
+Spree::Product.without_inactive
+```
+
+or
+
+```ruby
+Spree::Product.with_inactive
+```
 
 Installation
 ------------
